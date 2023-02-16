@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE="c" | gcc -S $CFILE -o c.o
+gcc -c $CFILE -o c.o
