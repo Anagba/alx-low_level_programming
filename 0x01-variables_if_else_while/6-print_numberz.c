@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -9,9 +10,9 @@
  */
 int main(void)
 {
-int i = 18;
+int i = 48;
 
-while (i < 28)
+while (i < 58)
 {
 putchar(i);
 i++;
