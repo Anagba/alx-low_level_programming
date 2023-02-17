@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-int i = 28;
+int i = 0;
 
-while (i < 38)
+while (i < 10)
 {
 putchar(i);
 i++;
