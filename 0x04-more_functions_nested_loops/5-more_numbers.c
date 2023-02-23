@@ -12,7 +12,7 @@ void more_numbers(void)
 {
 int number, tens, units, row;
 
-for (row = 0; row <= 10; row++)
+for (row = 1; row <= 10; row++)
 {
 for (number = 0; number <= 14; number++)
 {
