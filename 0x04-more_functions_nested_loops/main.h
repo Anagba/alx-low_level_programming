@@ -1,3 +1,4 @@
+
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -9,7 +10,7 @@ int _isdigit(int c);
 
 int mul(int a, int b);
 
-void print_numbers(void0;
+void print_numbers(void);
 
 void print_most_numbers(void);
 
@@ -23,9 +24,9 @@ void print_square(int size);
 
 void print_triangle(int size);
 
-int _isPrime(long int n);
+int isPrime(long int n);
 
-long int biggestfactor(long int a);
+long int biggestFactor(long int a);
 
 void print_number(int n);
 
