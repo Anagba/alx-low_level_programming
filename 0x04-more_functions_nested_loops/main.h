@@ -30,5 +30,4 @@ long int biggestfactor(long int a);
 void print_number(int n);
 
 int numDigits(int n);
-
 #endif
