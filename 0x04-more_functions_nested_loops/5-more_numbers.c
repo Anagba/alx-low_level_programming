@@ -23,6 +23,6 @@ _putchar(tens + '0');
 
 _putchar(units + '0');
 }
-_putchar9('\n');
+_putchar('\n');
 }
 }
