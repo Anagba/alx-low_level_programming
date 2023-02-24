@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_triangle -entry point
+ * print_triangle - entry point
  *
- * Description: print triangles
- * @size: size of the triangle
+ * Description: Prints diagonals
+ *@size: size of the triangle
  * Return: void
  */
 
-int print_triangle(int size)
+void print_triangle(int size)
 {
 	int row, hashes, spaces;
 
