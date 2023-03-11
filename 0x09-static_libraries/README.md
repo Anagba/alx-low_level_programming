@@ -1,1 +1,1 @@
-fundamentals of what static libraries are all about
+an intro to the fundamentals of what static library is all about
