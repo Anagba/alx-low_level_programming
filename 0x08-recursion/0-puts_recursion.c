@@ -15,8 +15,8 @@ void _puts_recursion(char *s)
 	{
 		return;
 	}
-	_putchar(*s);
-	_puts_recursion(*s);
+	_putchar(s);
+	_puts_recursion(++s);
 }
 
 /**
@@ -39,9 +39,9 @@ int _putchar(char c)
  */
 int main(void)
 {
-	char *s = "Puts with recursion";
+	char *i = "Puts with recursion";
 
-	_puts_recursion(*s);
-
+	_puts_recursion(i);
+	_putchar('\n');
 	return (0);
 }
