@@ -31,7 +31,7 @@ int _sqrt_recursion(int n)
 
 int ProperSqrt(int n, int p)
 {
-	if (n < 0)
+	if (p * p > n)
 	{
 	return (-1);
 	}
@@ -40,5 +40,5 @@ int ProperSqrt(int n, int p)
 		return (p);
 	}
 	else
-		ProperSqrt(n, p + 1);
+		return (ProperSqrt(n, p + 1));
 }
