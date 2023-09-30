@@ -31,7 +31,9 @@ int primechecker(int n, int p)
 {
 
 	if (n == 2)
+	{
 		return (1);
+	}
 
 	if (n > 2)
 	{
@@ -46,8 +48,7 @@ int primechecker(int n, int p)
 			}
 		}
 	}
-	else
-		return (primechecker(n, (p + 1)));
+	return (primechecker(n, (p + 1)));
 }
 
 int oddprimechecker(int p);
