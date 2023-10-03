@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - entry point
  * @argv: an array of strings passed as arguments
@@ -6,8 +7,8 @@
  * name has been changed to something else
  * Return: 0
  */
-
-int main(char *argv[])
+int _putchar(char c);
+int main(int argc, char *argv[])
 {
 	_putchar(*argv[0]);
 	_putchar('\n');
