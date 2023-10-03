@@ -2,13 +2,14 @@
 #include <stdio.h>
 /**
  * main - entry point
+ * @argc: takes count of the argument entered
  * @argv: an array of strings passed as arguments
  * Description: A program that prints its name even after the
  * name has been changed to something else
  * Return: 0
  */
-int _putchar(char c);
-int main(int argc, char *argv[])
+
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	
 	_putchar(*argv[0]);
