@@ -10,7 +10,7 @@
 int _putchar(char c);
 int main(int argc, char *argv[])
 {
-	_putchar(*argv[0]);
+	printf("%s", argv[0]);
 	_putchar('\n');
 
 	return (0);
