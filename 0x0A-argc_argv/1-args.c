@@ -9,13 +9,13 @@
  * Return: 0
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char __attribute__((unused)))
 {
 	int p;
 
 	if (argc > 1)
 		for (p = 1; p < argc; p++)
-			printf("%d\n", argv[p]);
+			printf("%d\n", p);
 	else
 		printf("No argument passed\n");
 	return (0);
