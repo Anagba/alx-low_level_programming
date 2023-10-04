@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib>
 /**
@@ -13,9 +12,9 @@
 int main(int argc __attribute__((unused)), char **argv[])
 {
 	
-	_putchar(argv[0]);
+	putchar(**argv[0]);
 
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
