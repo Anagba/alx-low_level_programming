@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib>
 /**
  * main - entry point
  * @argc: takes count of the argument entered
@@ -9,10 +10,10 @@
  * Return: 0
  */
 
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc __attribute__((unused)), char **argv[])
 {
 	
-	_putchar(*argv[0]);
+	_putchar(**argv[0]);
 
 	_putchar('\n');
 
