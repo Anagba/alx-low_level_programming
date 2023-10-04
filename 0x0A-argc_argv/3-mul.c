@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 		}
 		printf("%d\n", product);
 	}
-	if (p == 0)
+	if (p < 3 || p > 3)
 	{
 		printf("Error\n");
 		return (1);
