@@ -12,8 +12,7 @@
 int main(int argc __attribute__((unused)), char **argv)
 {
 	
-	putchar(argv);
-	putchar('\n');
+	printf("%s\n", argv);
 
 	return (0);
 }
