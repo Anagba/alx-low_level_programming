@@ -12,7 +12,7 @@
 
 int main(int argc, char **argv)
 {
-	int sum, p, n;
+	int p, n, sum = 0;
 
 	if (argc > 1)
 	{
