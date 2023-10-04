@@ -14,8 +14,6 @@ int main(int argc, char **argv)
 {
 	int p, n, sum = 0;
 
-	if (argc > 1)
-	{
 		for (p = 1; p < argc; p++)
 		{
 			for (n = 0; argv[p][n] != '\0'; n++)
@@ -29,8 +27,7 @@ int main(int argc, char **argv)
 			}
 		printf("%d\n", sum);
 		}
-	}
-	else
+	if (argc < 0)
 	{
 		printf("%d\n", 0);
 	}
