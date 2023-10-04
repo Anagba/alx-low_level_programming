@@ -12,7 +12,6 @@
 
 int main(int argc, char **argv)
 {
-	int p;
 	while (argc--)
 		{
 			printf("%s\n", *argv++);
