@@ -27,9 +27,5 @@ int main(int argc, char **argv)
 			}
 		printf("%d\n", sum);
 		}
-	if (argc < 0)
-	{
-		printf("%d\n", 0);
-	}
 	return (0);
 }
