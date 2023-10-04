@@ -11,17 +11,15 @@
 
 int main(int argc, char **argv)
 {
-	int p, product = 1;
+	int  product;
 
-	if (argc > 1)
+	if (argc >= 1 || argc <=2)
 	{
-		for (p = 1; p < argc; p++)
-		{
-			product *= atoi(argv[p]);
-		}
+		product	= atoi(*(argv + 1)) * atoi(*(argv + 2));
 		printf("%d\n", product);
 	}
-	if (p < 3 || p > 3)
+
+	else
 	{
 		printf("Error\n");
 		return (1);
