@@ -13,11 +13,9 @@
 int main(int argc, char **argv)
 {
 	int p;
-	if (argc > 1)
-		for (p = 1; p < argc; p++)
+	while (argc--)
 		{
-			printf("%s", *argv);
-			printf("\n");
+			printf("%s\n", *argv++);
 		}
 	return (0);
 }
