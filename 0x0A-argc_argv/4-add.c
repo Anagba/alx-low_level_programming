@@ -1,22 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
-
-/**
- * _isdigit - entry point
- * @c: the integer to be considered
- * Description: A program that checks if a character is a number
- * Return: 1 if yes, 0 if no
- */
-
-int _isdigit(int c)
-{
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
-}
-
+#include <ctype.h>
 /**
  * main - entry point
  * @argc: argument count
@@ -34,7 +18,7 @@ int main(int argc, char **argv)
 	{
 		for (p = 1; p < argc; p++)
 		{
-			if (_isdigit(argv[p] != 0)
+			if (isdigit(argv[p])
 			{
 				printf("Error\n");
 				return (1);
