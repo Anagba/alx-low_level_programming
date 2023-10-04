@@ -10,13 +10,13 @@
  * Return: 0
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char **argv)
 {
 	int p;
 	if (argc > 1)
 		for (p = 1; p < argc; p++)
 		{
-			printf("%s", argv[p]);
+			printf("%s", *argv);
 			printf("\n");
 		}
 	return (0);
