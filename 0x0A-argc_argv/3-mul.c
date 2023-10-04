@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 
 	if (argc > 1)
 	{
-		for (p = 0; p < argc; p++)
+		for (p = 1; p < argc; p++)
 		{
 			product *= atoi(argv[p]);
 		}
